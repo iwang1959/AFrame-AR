@@ -1,0 +1,295 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <script src="https://aframe.io/releases/1.2.0/aframe.min.js"> </script>
+        <script src="https://unpkg.com/aframe-look-at-component@0.8.0/dist/aframe-look-at-component.min.js"></script>
+        <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar-nft.js"></script>
+        <script src="https://raw.githack.com/donmccurdy/aframe-extras/master/dist/aframe-extras.loaders.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/gh/donmccurdy/aframe-extras@v6.1.1/dist/aframe-extras.min.js"> </script>
+
+        <script src="script.js"></script>
+
+
+    </head>
+
+    <body onload="init()" style="margin: 0; overflow: hidden;">
+        <a-scene embedded arjs>
+
+            <a-assets>
+                <a-asset-item
+                    id="animated-asset"
+                    src="assets/asset.glb"
+
+          
+                ></a-asset-item>
+                <a-asset-item id="cat1" src="assets/cat1/scene.gltf"></a-asset-item>
+                <a-asset-item id="cat2" src="assets/cat2/scene.gltf"></a-asset-item>
+                <a-asset-item id="cat3" src="assets/cat3/scene.gltf"></a-asset-item>
+            </a-assets>
+
+                <a-entity
+                    look-at="[gps-camera]"
+                    animation-mixer="loop: repeat"
+                    gltf-model="#cat3"
+                    scale="0.00000001009293230336994 0.00000001009293230336994 0.00000001009293230336994"
+                    gps-entity-place="latitude: 40.7711111; longitude: -73.7813889;"
+                ></a-entity>
+                <a-entity
+                    look-at="[gps-camera]"
+                    animation-mixer="loop: repeat"
+                    gltf-model="#cat3"
+                    scale="0.00000001009293230336994 0.00000001009293230336994 0.00000001009293230336994"
+                    gps-entity-place="latitude: 40.7513889; longitude: -73.9369444;"
+                ></a-entity>
+                <a-entity
+                    look-at="[gps-camera]"
+                    animation-mixer="loop: repeat"
+                    gltf-model="#cat3"
+                    scale="0.00000001009293230336994 0.00000001009293230336994 0.00000001009293230336994"
+                    gps-entity-place="latitude: 40.7445; longitude: -73.9368;"
+                ></a-entity>
+                <a-entity
+                    look-at="[gps-camera]"
+                    animation-mixer="loop: repeat"
+                    gltf-model="#cat3"
+                    scale="0.00000001009293230336994 0.00000001009293230336994 0.00000001009293230336994"
+                    gps-entity-place="latitude: 40.6015; longitude: -73.764;"
+                ></a-entity>
+                <a-entity
+                    look-at="[gps-camera]"
+                    animation-mixer="loop: repeat"
+                    gltf-model="#cat3"
+                    scale="0.00000001009293230336994 0.00000001009293230336994 0.00000001009293230336994"
+                    gps-entity-place="latitude: 40.7012; longitude: -73.8151;"
+                ></a-entity>
+                <a-entity
+                    look-at="[gps-camera]"
+                    animation-mixer="loop: repeat"
+                    gltf-model="#cat3"
+                    scale="0.00000001009293230336994 0.00000001009293230336994 0.00000001009293230336994"
+                    gps-entity-place="latitude: 40.7111; longitude: -73.8198;"
+                ></a-entity>
+                <a-entity
+                    look-at="[gps-camera]"
+                    animation-mixer="loop: repeat"
+                    gltf-model="#cat3"
+                    scale="0.00000001009293230336994 0.00000001009293230336994 0.00000001009293230336994"
+                    gps-entity-place="latitude: 40.7436; longitude: -73.9292;"
+                ></a-entity>
+                <a-entity
+                    look-at="[gps-camera]"
+                    animation-mixer="loop: repeat"
+                    gltf-model="#cat3"
+                    scale="0.00000001009293230336994 0.00000001009293230336994 0.00000001009293230336994"
+                    gps-entity-place="latitude: 40.7552; longitude: -73.927;"
+                ></a-entity>
+                <a-entity
+                    look-at="[gps-camera]"
+                    animation-mixer="loop: repeat"
+                    gltf-model="#cat3"
+                    scale="0.00000001009293230336994 0.00000001009293230336994 0.00000001009293230336994"
+                    gps-entity-place="latitude: 40.6337; longitude: -73.979;"
+                ></a-entity>
+                <a-entity
+                    look-at="[gps-camera]"
+                    animation-mixer="loop: repeat"
+                    gltf-model="#cat3"
+                    scale="0.00000001009293230336994 0.00000001009293230336994 0.00000001009293230336994"
+                    gps-entity-place="latitude: 40.745; longitude: -73.9368;"
+                ></a-entity>
+                <a-entity
+                    look-at="[gps-camera]"
+                    animation-mixer="loop: repeat"
+                    gltf-model="#cat3"
+                    scale="0.00000001009293230336994 0.00000001009293230336994 0.00000001009293230336994"
+                    gps-entity-place="latitude: 40.71083; longitude: -73.88917;"
+                ></a-entity>
+                <a-entity
+                    look-at="[gps-camera]"
+                    animation-mixer="loop: repeat"
+                    gltf-model="#cat3"
+                    scale="0.00000001009293230336994 0.00000001009293230336994 0.00000001009293230336994"
+                    gps-entity-place="latitude: 40.7497222; longitude: -73.8216667;"
+                ></a-entity>
+                <a-entity
+                    look-at="[gps-camera]"
+                    animation-mixer="loop: repeat"
+                    gltf-model="#cat3"
+                    scale="0.00000001009293230336994 0.00000001009293230336994 0.00000001009293230336994"
+                    gps-entity-place="latitude: 40.6018305; longitude: -73.7635912;"
+                ></a-entity>
+                <a-entity
+                    look-at="[gps-camera]"
+                    animation-mixer="loop: repeat"
+                    gltf-model="#cat3"
+                    scale="0.00000001009293230336994 0.00000001009293230336994 0.00000001009293230336994"
+                    gps-entity-place="latitude: 40.764824; longitude: -73.826801;"
+                ></a-entity>
+                <a-entity
+                    look-at="[gps-camera]"
+                    animation-mixer="loop: repeat"
+                    gltf-model="#cat3"
+                    scale="0.00000001009293230336994 0.00000001009293230336994 0.00000001009293230336994"
+                    gps-entity-place="latitude: 40.7298246; longitude: -73.8448572;"
+                ></a-entity>
+                <a-entity
+                    look-at="[gps-camera]"
+                    animation-mixer="loop: repeat"
+                    gltf-model="#cat3"
+                    scale="0.00000001009293230336994 0.00000001009293230336994 0.00000001009293230336994"
+                    gps-entity-place="latitude: 40.7406579; longitude: -73.7943002;"
+                ></a-entity>
+                <a-entity
+                    look-at="[gps-camera]"
+                    animation-mixer="loop: repeat"
+                    gltf-model="#cat3"
+                    scale="0.00000001009293230336994 0.00000001009293230336994 0.00000001009293230336994"
+                    gps-entity-place="latitude: 40.6018202; longitude: -73.7636596;"
+                ></a-entity>
+                <a-entity
+                    look-at="[gps-camera]"
+                    animation-mixer="loop: repeat"
+                    gltf-model="#cat3"
+                    scale="0.00000001009293230336994 0.00000001009293230336994 0.00000001009293230336994"
+                    gps-entity-place="latitude: 40.7541667; longitude: -73.8886111;"
+                ></a-entity>
+                <a-entity
+                    look-at="[gps-camera]"
+                    animation-mixer="loop: repeat"
+                    gltf-model="#cat3"
+                    scale="0.00000001009293230336994 0.00000001009293230336994 0.00000001009293230336994"
+                    gps-entity-place="latitude: 40.71167; longitude: -73.91;"
+                ></a-entity>
+                <a-entity
+                    look-at="[gps-camera]"
+                    animation-mixer="loop: repeat"
+                    gltf-model="#cat3"
+                    scale="0.00000001009293230336994 0.00000001009293230336994 0.00000001009293230336994"
+                    gps-entity-place="latitude: 40.7097222; longitude: -73.8033333;"
+                ></a-entity>
+                <a-entity
+                    look-at="[gps-camera]"
+                    animation-mixer="loop: repeat"
+                    gltf-model="#cat3"
+                    scale="0.00000001009293230336994 0.00000001009293230336994 0.00000001009293230336994"
+                    gps-entity-place="latitude: 40.7712128; longitude: -73.7954112;"
+                ></a-entity>
+                <a-entity
+                    look-at="[gps-camera]"
+                    animation-mixer="loop: repeat"
+                    gltf-model="#cat3"
+                    scale="0.00000001009293230336994 0.00000001009293230336994 0.00000001009293230336994"
+                    gps-entity-place="latitude: 40.7441996; longitude: -73.9346009;"
+                ></a-entity>
+                <a-entity
+                    look-at="[gps-camera]"
+                    animation-mixer="loop: repeat"
+                    gltf-model="#cat3"
+                    scale="0.00000001009293230336994 0.00000001009293230336994 0.00000001009293230336994"
+                    gps-entity-place="latitude: 40.7142694; longitude: -73.7981892;"
+                ></a-entity>
+                <a-entity
+                    look-at="[gps-camera]"
+                    animation-mixer="loop: repeat"
+                    gltf-model="#cat3"
+                    scale="0.00000001009293230336994 0.00000001009293230336994 0.00000001009293230336994"
+                    gps-entity-place="latitude: 40.6787144; longitude: -73.8368014;"
+                ></a-entity>
+                <a-entity
+                    look-at="[gps-camera]"
+                    animation-mixer="loop: repeat"
+                    gltf-model="#cat3"
+                    scale="0.00000001009293230336994 0.00000001009293230336994 0.00000001009293230336994"
+                    gps-entity-place="latitude: 40.7385737; longitude: -73.8239827;"
+                ></a-entity>
+                <a-entity
+                    look-at="[gps-camera]"
+                    animation-mixer="loop: repeat"
+                    gltf-model="#cat3"
+                    scale="0.00000001009293230336994 0.00000001009293230336994 0.00000001009293230336994"
+                    gps-entity-place="latitude: 40.7652778; longitude: -73.9327778;"
+                ></a-entity>
+                <a-entity
+                    look-at="[gps-camera]"
+                    animation-mixer="loop: repeat"
+                    gltf-model="#cat3"
+                    scale="0.00000001009293230336994 0.00000001009293230336994 0.00000001009293230336994"
+                    gps-entity-place="latitude: 40.7339913; longitude: -73.7390208;"
+                ></a-entity>
+                <a-entity
+                    look-at="[gps-camera]"
+                    animation-mixer="loop: repeat"
+                    gltf-model="#cat3"
+                    scale="0.00000001009293230336994 0.00000001009293230336994 0.00000001009293230336994"
+                    gps-entity-place="latitude: 40.7134361; longitude: -73.7868;"
+                ></a-entity>
+                <a-entity
+                    look-at="[gps-camera]"
+                    animation-mixer="loop: repeat"
+                    gltf-model="#cat3"
+                    scale="0.00000001009293230336994 0.00000001009293230336994 0.00000001009293230336994"
+                    gps-entity-place="latitude: 40.75806; longitude: -73.89556;"
+                ></a-entity>
+                <a-entity
+                    look-at="[gps-camera]"
+                    animation-mixer="loop: repeat"
+                    gltf-model="#cat3"
+                    scale="0.00000001009293230336994 0.00000001009293230336994 0.00000001009293230336994"
+                    gps-entity-place="latitude: 40.7409354; longitude: -73.8740247;"
+                ></a-entity>
+                <a-entity
+                    look-at="[gps-camera]"
+                    animation-mixer="loop: repeat"
+                    gltf-model="#cat3"
+                    scale="0.00000001009293230336994 0.00000001009293230336994 0.00000001009293230336994"
+                    gps-entity-place="latitude: 40.7205556; longitude: -73.8194444;"
+                ></a-entity>
+                <a-entity
+                    look-at="[gps-camera]"
+                    animation-mixer="loop: repeat"
+                    gltf-model="#cat3"
+                    scale="0.00000001009293230336994 0.00000001009293230336994 0.00000001009293230336994"
+                    gps-entity-place="latitude: 40.695; longitude: -73.8341667;"
+                ></a-entity>
+                <a-entity
+                    look-at="[gps-camera]"
+                    animation-mixer="loop: repeat"
+                    gltf-model="#cat3"
+                    scale="0.00000001009293230336994 0.00000001009293230336994 0.00000001009293230336994"
+                    gps-entity-place="latitude: 40.7348679; longitude: -73.8214411;"
+                ></a-entity>
+                <a-entity
+                    look-at="[gps-camera]"
+                    animation-mixer="loop: repeat"
+                    gltf-model="#cat3"
+                    scale="0.00000001009293230336994 0.00000001009293230336994 0.00000001009293230336994"
+                    gps-entity-place="latitude: 40.7908333; longitude: -73.8130556;"
+                ></a-entity>
+
+            <!--<a-camera gps-camera rotation-reader>-->
+            
+
+
+            <a-marker-camera preset='kanji'><a-cursor></a-cursor>
+              <!--<a-box color="red" scale="0.25 0.25 0.25" position="0 8 0" animation="property: position; to: 0 -8 0; dur: 6000; easing: linear; loop: true"></a-box>-->
+
+              <a-gltf-model src="#animated-asset" scale="0.1 0.1 0.1"  position="-2 0 0" rotation="0 0 0"></a-gltf-model>
+            
+            </a-marker-camera>
+
+            <a-camera> <a-cursor></a-cursor>
+      <a-text value="The cat is a domestic species of small carnivorous mammal. It is the only domesticated species in the family Felidae and is often referred to as the domestic cat to distinguish it from the wild members of the family.
+Lifespan: 2 – 16 years (In the wild)
+Gestation period: 58 – 67 days
+Daily sleep: 12 – 16 hours
+Mass: 7.9 – 9.9 lbs (Adult)
+Scientific name: Felis catus
+Height: 9.1 – 9.8 in." 
+position = "-1 0 0"></a-text>
+      </a-camera>
+
+        </a-scene>
+    </body>
+</html>
